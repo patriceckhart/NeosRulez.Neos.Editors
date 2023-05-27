@@ -1,0 +1,26 @@
+'Neos.Neos:Content':
+  ui:
+    inspector:
+      groups:
+        distance:
+          label: Distance
+          icon: fas fa-arrows-alt-v
+  properties:
+    margin:
+      type: array
+      ui:
+        label: Margin
+        reloadIfChanged: true
+        inspector:
+          group: distance
+          position: 1
+          editor: NeosRulez/Neos/Editors/DistanceEditor
+    padding:
+      type: array
+      ui:
+        label: Padding
+        reloadIfChanged: true
+        inspector:
+          group: distance
+          position: 2
+          editor: NeosRulez/Neos/Editors/DistanceEditor

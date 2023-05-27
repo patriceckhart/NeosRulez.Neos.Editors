@@ -1,0 +1,10 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        stylesheets:
+          'NeosRulez.Neos.Editors.DistanceEditor':
+            resource: '${"resource://NeosRulez.Neos.Editors/Public/DistanceEditor/Plugin.css"}'
+        javascript:
+          'NeosRulez.Neos.Editors.DistanceEditor':
+            resource: '${"resource://NeosRulez.Neos.Editors/Public/DistanceEditor/Plugin.js"}'

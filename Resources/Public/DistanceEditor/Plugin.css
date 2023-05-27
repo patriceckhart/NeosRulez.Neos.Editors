@@ -1,0 +1,39 @@
+.styles__flexRow___3lnwY {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.styles__hidden___1QYxP {
+  display: none;
+}
+
+.styles__buttons___uSU4b {
+  position: absolute;
+  right: 0;
+  margin-top: -24px;
+  margin-right: 16px;
+}
+
+.styles__buttons___uSU4b .styles__flexRow___3lnwY {
+  gap: 0;
+}
+
+.styles__buttons___uSU4b .styles__flexRow___3lnwY button {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  margin-left: 5px;
+  line-height: 50%;
+}
+
+.styles__buttons___uSU4b .styles__flexRow___3lnwY button svg {
+  max-width: 12px;
+  height: auto;
+}
+
+.styles__unitSelector___15KXP {
+  margin-top: 10px;
+}
+

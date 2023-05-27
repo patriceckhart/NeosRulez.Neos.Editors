@@ -1,0 +1,18 @@
+{
+    "description": "A package with additional editors for the Neos CMS inspector.",
+    "type": "neos-plugin",
+    "name": "neosrulez/neos-editors",
+    "require": {
+        "neos/neos": "^8.0 || ^8.1 || ^8.2 || ^8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "NeosRulez\\Neos\\Editors\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "NeosRulez.Neos.Editors"
+        }
+    }
+}
