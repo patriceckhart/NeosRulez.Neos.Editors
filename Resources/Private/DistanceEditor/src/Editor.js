@@ -14,7 +14,7 @@ class Editor extends PureComponent {
 		commit: PropTypes.func.isRequired,
 	};
 
-    constructor(props: any) {
+    constructor(props) {
         super(props);
 		this.state = {
 			desktop: true,
@@ -124,10 +124,10 @@ const Selector = (props) => {
 	return (
 		<Fragment>
 			<div className={styles.flexRow} >
-				<TextInput placeholder={unit} value={top} onChange={(p) => setFirstValue(p)} />
-				<TextInput placeholder={unit} value={right} onChange={(p) => setRight(p)} />
-				<TextInput placeholder={unit} value={bottom} onChange={(p) => setBottom(p)} />
-				<TextInput placeholder={unit} value={left} onChange={(p) => setLeft(p)} />
+				<TextInput placeholder={unit} value={top} onChange={(p) => setFirstValue(p)} className={styles.top} />
+				<TextInput placeholder={unit} value={right} onChange={(p) => setRight(p)} className={styles.right} />
+				<TextInput placeholder={unit} value={bottom} onChange={(p) => setBottom(p)} className={styles.bottom} />
+				<TextInput placeholder={unit} value={left} onChange={(p) => setLeft(p)} className={styles.left} />
 			</div>
 			<div className={styles.unitSelector} >
 				<SelectBox

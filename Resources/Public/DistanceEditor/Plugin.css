@@ -37,3 +37,23 @@
   margin-top: 10px;
 }
 
+.styles__top___1as09 {
+  border-top: 2px solid #00adee;
+  border-radius: 0 0 2px 2px;
+}
+
+.styles__bottom___1CYW9 {
+  border-bottom: 2px solid #00adee;
+  border-radius: 2px 2px 0 0;
+}
+
+.styles__left___1QLwJ {
+  border-left: 2px solid #00adee;
+  border-radius: 0 2px 2px 0;
+}
+
+.styles__right___1THUQ {
+  border-right: 2px solid #00adee;
+  border-radius: 2px 0 0 2px;
+}
+
