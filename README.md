@@ -17,7 +17,7 @@ composer require neosrulez/neos-editors
 ## Password Input
 ### ⚠️ Please note! The password is not stored securely. It is saved in plain text.
 
-![PasswordInput](https://raw.githubusercontent.com/patriceckhart/NeosRulez.Neos.Editors/master/PasswordInput1.png)
+![PasswordInput](https://raw.githubusercontent.com/patriceckhart/NeosRulez.Neos.Editors/main/PasswordInput1.png)
 
 ### Usage
 
