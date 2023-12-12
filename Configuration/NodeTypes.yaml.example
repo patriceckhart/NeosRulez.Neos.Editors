@@ -24,3 +24,12 @@
           group: distance
           position: 2
           editor: NeosRulez/Neos/Editors/DistanceEditor
+    password:
+      type: string
+      ui:
+        label: Password
+        reloadIfChanged: true
+        inspector:
+          group: rotation
+          position: 3
+          editor: NeosRulez/Neos/Editors/PasswordInput

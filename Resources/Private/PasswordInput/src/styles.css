@@ -1,0 +1,14 @@
+.PasswordWrapper {
+  position: relative;
+}
+.PasswordWrapper button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 2px 0 0 2px;
+}
+.PasswordWrapper input {
+  padding-left: 54px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -14,6 +14,11 @@ composer require neosrulez/neos-editors
 
 ![DistanceEditor](https://raw.githubusercontent.com/patriceckhart/NeosRulez.Neos.Editors/master/DistanceEditor.png)
 
+## Password Input
+### ⚠️Please note! The password is not stored securely. It is saved in plain text.
+
+![PasswordInput](https://raw.githubusercontent.com/patriceckhart/NeosRulez.Neos.Editors/master/PasswordInput.png)
+
 ### Usage
 
 ```yaml
@@ -43,6 +48,15 @@ composer require neosrulez/neos-editors
           group: distance
           position: 2
           editor: NeosRulez/Neos/Editors/DistanceEditor
+    password:
+      type: string
+      ui:
+        label: Password
+        reloadIfChanged: true
+        inspector:
+          group: rotation
+          position: 3
+          editor: NeosRulez/Neos/Editors/PasswordInput
 ```
 
 ### Several more editors are coming soon ...
