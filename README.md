@@ -15,7 +15,7 @@ composer require neosrulez/neos-editors
 ![DistanceEditor](https://raw.githubusercontent.com/patriceckhart/NeosRulez.Neos.Editors/master/DistanceEditor.png)
 
 ## Password Input
-### ⚠️ Please note! The password is not stored securely. It is saved in plain text.
+### ⚠️ Please note! The password is not stored securely. It is saved as plain text.
 
 ![PasswordInput](https://raw.githubusercontent.com/patriceckhart/NeosRulez.Neos.Editors/main/PasswordInput1.png)
 
