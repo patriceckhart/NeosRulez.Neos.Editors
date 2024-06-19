@@ -7,8 +7,12 @@ Neos:
             resource: '${"resource://NeosRulez.Neos.Editors/Public/DistanceEditor/Plugin.css"}'
           'NeosRulez.Neos.Editors.PasswordInput':
             resource: '${"resource://NeosRulez.Neos.Editors/Public/PasswordInput/Plugin.css"}'
+          'NeosRulez.Neos.Editors.SelectBoxEditor':
+            resource: '${"resource://NeosRulez.Neos.Editors/Public/SelectBoxEditor/Plugin.css"}'
         javascript:
           'NeosRulez.Neos.Editors.DistanceEditor':
             resource: '${"resource://NeosRulez.Neos.Editors/Public/DistanceEditor/Plugin.js"}'
           'NeosRulez.Neos.Editors.PasswordInput':
             resource: '${"resource://NeosRulez.Neos.Editors/Public/PasswordInput/Plugin.js"}'
+          'NeosRulez.Neos.Editors.SelectBoxEditor':
+            resource: '${"resource://NeosRulez.Neos.Editors/Public/SelectBoxEditor/Plugin.js"}'
