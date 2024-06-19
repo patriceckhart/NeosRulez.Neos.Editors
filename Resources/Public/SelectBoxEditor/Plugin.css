@@ -1,0 +1,29 @@
+.styles__option___1sn1C {
+  height: 40px;
+  cursor: pointer;
+  padding-left: 16px;
+}
+.styles__option___1sn1C .styles__preview___2cXKK {
+  display: none;
+}
+li[role=option] .styles__option___1sn1C {
+  padding: 10px 5px 5px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: start;
+  background: none !important;
+  color: #FFF !important;
+}
+li[role=option] .styles__option___1sn1C .styles__preview___2cXKK {
+  display: flex;
+  background: #FFF;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border-radius: 2px;
+}
+li[role=option] .styles__option___1sn1C:hover {
+  background: #00adee !important;
+}
+
