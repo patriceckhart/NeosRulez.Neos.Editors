@@ -19,6 +19,11 @@ composer require neosrulez/neos-editors
 
 ![PasswordInput](https://raw.githubusercontent.com/patriceckhart/NeosRulez.Neos.Editors/main/PasswordInput1.png)
 
+## Advanced Selectbox Editor
+
+![SelectBoxEditor](https://raw.githubusercontent.com/patriceckhart/NeosRulez.Neos.Editors/main/SelectBoxEditor.png)
+
+
 ### Usage
 
 ```yaml
@@ -57,6 +62,15 @@ composer require neosrulez/neos-editors
           group: rotation
           position: 3
           editor: NeosRulez/Neos/Editors/PasswordInput
+    color:
+        type: string
+        ui:
+          label: Color
+          reloadIfChanged: true
+          inspector:
+            group: rotation
+            position: 4
+            editor: NeosRulez/Neos/Editors/SelectBoxEditor
 ```
 
 ### Several more editors are coming soon ...
