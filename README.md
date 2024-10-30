@@ -23,6 +23,10 @@ composer require neosrulez/neos-editors
 
 ![SelectBoxEditor](https://raw.githubusercontent.com/patriceckhart/NeosRulez.Neos.Editors/main/SelectBoxEditor.png)
 
+## Toggle Editor
+
+![ToggleEditor](https://raw.githubusercontent.com/patriceckhart/NeosRulez.Neos.Editors/main/ToggleEditor.png)
+
 
 ### Usage
 
@@ -63,14 +67,35 @@ composer require neosrulez/neos-editors
           position: 3
           editor: NeosRulez/Neos/Editors/PasswordInput
     color:
-        type: string
-        ui:
-          label: Color
-          reloadIfChanged: true
-          inspector:
-            group: rotation
-            position: 4
-            editor: NeosRulez/Neos/Editors/SelectBoxEditor
+      type: string
+      ui:
+        label: Color
+        reloadIfChanged: true
+        inspector:
+          group: rotation
+          position: 4
+          editor: NeosRulez/Neos/Editors/SelectBoxEditor
+    alignment:
+      type: string
+      ui:
+        label: Color
+        reloadIfChanged: true
+        inspector:
+          group: rotation
+          position: 5
+          editor: NeosRulez/Neos/Editors/ToggleEditor
+          editorOptions:
+            allowEmpty: true
+            values:
+              left:
+                label: Left
+                icon: fas fa-align-left
+              center:
+                label: Center
+                icon: fas fa-align-center
+              right:
+                label: Right
+                icon: fas fa-align-right
 ```
 
 ### Several more editors are coming soon ...

@@ -1,0 +1,32 @@
+.styles__toggleEditor___2yxmV {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border-radius: 2px;
+  overflow: hidden;
+  overflow-x: auto;
+  width: fit-content;
+  max-width: 100%;
+}
+.styles__toggleEditor___2yxmV button {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  min-width: auto;
+}
+.styles__toggleEditor___2yxmV button[title] {
+  width: 40px;
+  height: 40px;
+  max-width: 40px;
+  min-width: 40px;
+  max-height: 40px;
+  min-height: 40px;
+}
+.styles__toggleEditor___2yxmV .styles__allowEmpty___172Iy {
+  margin-left: 1px;
+}
+

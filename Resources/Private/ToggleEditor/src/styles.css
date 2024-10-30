@@ -1,0 +1,33 @@
+.toggleEditor {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border-radius: 2px;
+  overflow: hidden;
+  overflow-x: auto;
+  width: fit-content;
+  max-width: 100%;
+}
+.toggleEditor button {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  min-width: auto;
+}
+.toggleEditor button[title] {
+  width: 40px;
+  height: 40px;
+  max-width: 40px;
+  min-width: 40px;
+  max-height: 40px;
+  min-height: 40px;
+}
+.toggleEditor .allowEmpty {
+  margin-left: 1px;
+}
+
+/*# sourceMappingURL=styles.css.map */
