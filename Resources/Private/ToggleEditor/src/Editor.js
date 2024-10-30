@@ -61,7 +61,13 @@ const Selector = (props) => {
         <Fragment>
             {options && options.values && Object.keys(options.values).length > 0 &&
                 <div className={styles.toggleEditor}>
-                    {Object.entries(options.values).map(([key, item]) => (
+                    {Object.entries(options.values)
+                        .sort(([, a], [, b]) => {
+                            if (a.position !== undefined && b.position !== undefined) {
+                                return a.position - b.position;
+                            }
+                            return 0;
+                        }).map(([key, item]) => (
                         <Fragment>
                             {!item.hidden &&
                                 <Fragment>
