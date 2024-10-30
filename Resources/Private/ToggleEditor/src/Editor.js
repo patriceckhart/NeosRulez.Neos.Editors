@@ -63,16 +63,20 @@ const Selector = (props) => {
                 <div className={styles.toggleEditor}>
                     {Object.entries(options.values).map(([key, item]) => (
                         <Fragment>
-                            {item.icon && !item.both &&
-                                <IconButton icon={item.icon} title={item.label} style={value === key ? 'brand' : 'light'} hoverStyle="brand" onClick={(p) => handleClick(key)} />
-                            }
-                            {item.icon && item.both &&
-                                <Button style={value === key ? 'brand' : 'light'} hoverStyle="brand" onClick={(p) => handleClick(key)}>
-                                    <Icon icon={item.icon} /> <span>{item.label}</span>
-                                </Button>
-                            }
-                            {!item.icon && !item.both &&
-                                <Button style={value === key ? 'brand' : 'light'} hoverStyle="brand" onClick={(p) => handleClick(key)}>{item.label}</Button>
+                            {!item.hidden &&
+                                <Fragment>
+                                    {item.icon && !item.both &&
+                                        <IconButton icon={item.icon} title={item.label} style={value === key ? 'brand' : 'light'} hoverStyle="brand" onClick={(p) => handleClick(key)} />
+                                    }
+                                    {item.icon && item.both &&
+                                        <Button style={value === key ? 'brand' : 'light'} hoverStyle="brand" onClick={(p) => handleClick(key)}>
+                                            <Icon icon={item.icon} /> <span>{item.label}</span>
+                                        </Button>
+                                    }
+                                    {!item.icon && !item.both &&
+                                        <Button style={value === key ? 'brand' : 'light'} hoverStyle="brand" onClick={(p) => handleClick(key)}>{item.label}</Button>
+                                    }
+                                </Fragment>
                             }
                         </Fragment>
                     ))}

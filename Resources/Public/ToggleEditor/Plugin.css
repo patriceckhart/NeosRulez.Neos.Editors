@@ -17,6 +17,11 @@
   justify-content: center;
   white-space: nowrap;
   min-width: auto;
+  line-height: 0;
+}
+.styles__toggleEditor___2yxmV button svg {
+  height: 1em;
+  width: 0.875em;
 }
 .styles__toggleEditor___2yxmV button[title] {
   width: 40px;
